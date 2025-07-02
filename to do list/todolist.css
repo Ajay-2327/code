@@ -1,0 +1,75 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 600px;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #eee;
+  position: relative;
+  background: lightcyan;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-list input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.todo-list span {
+  flex: 1;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.plant {
+    
+  position: absolute;
+  width: 100px;
+}
+
+.top-left {
+  top: 10px;
+  left: -10px;
+}
+
+.bottom-right {
+  bottom: 0px;
+  right: 0px;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
